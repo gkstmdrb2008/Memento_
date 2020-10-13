@@ -1,0 +1,124 @@
+.bigbox{width: 900px;
+height: 900px;
+background-color: white;
+position: absolute;}
+
+.backbox{width: 100%;
+height: 100%;
+position: absolute;
+right: 0%;}
+
+
+.box1{background-color: #403F3F;}
+.box2{background-color: #383838;}
+.box3{background-color: #2c2c2c;}
+.box4{background-color: #232323;}
+.box5{background-color: #1a1a1a;}
+.box6{background-color: #4a4a4a;}
+.box7{background-color: #5f5f5f;}
+.box8{background-color: #6f6e6e;}
+.box9{background-color: #848585;}
+.box0{background-color: #949494;}
+.box11{background-color: #9c9c9c;}
+.box12{background-color: #adacac;}
+.box13{background-color: #757575;}
+.box14{background-color: #7a7a7a;}
+.box15{background-color: #a4a4a4;}
+.box16{background-color: #686968;}
+.box17{background-color: #8c8c8b;}
+.box18{background-color: #535353;}
+.box19{background-color: #7f7f80;}
+.box0, .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box11, .box12, .box13, .box14, .box15, .box16, .box17, .box18, .box19{
+    width: 45px; height: 45px; float: left;
+    border:0.1px solid white; transition-duration: 0.7s;}
+
+
+
+.box0:hover~.box19 { opacity: 0%;
+
+}
+.box1:hover~.box18 { opacity: 0%;
+
+}
+.box2:hover~.box17 { opacity: 0%;
+
+}
+.box3:hover~.box16 { opacity: 0%;
+
+}
+.box4:hover~.box15 { opacity: 0%;
+
+}
+.box5:hover~.box14 { opacity: 0%;
+
+}
+.box6:hover~.box13 { opacity: 0%;
+
+}
+.box7:hover~.box12 { opacity: 0%;
+
+}
+.box8:hover~.box11 { opacity: 0%;
+
+}
+.box9:hover~.box0 { opacity: 0%;
+
+}
+.box11:hover~.box9 { opacity: 0%;
+
+}
+.box12:hover~.box8 { opacity: 0%;
+
+}
+.box13:hover~.box7 { opacity: 0%;
+
+}
+.box14:hover~.box6 { opacity: 0%;
+
+}
+.box15:hover~.box5 { opacity: 0%;
+
+}
+.box16:hover~.box4 { opacity: 0%;
+
+}
+.box17:hover~.box3 { opacity: 0%;
+
+}
+.box18:hover~.box2 { opacity: 0%;
+
+}
+.box19:hover~.box1 { opacity: 0%;
+
+}
+
+h1,h2 {position: absolute;
+text-transform: capitalize;}
+
+h1::before {
+    content: "Memento";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    white-space: nowrap;
+    border-bottom:4px solid white;
+    overflow-y: hidden;
+    animation: typing 4s steps(6) infinite;
+
+}
+
+@keyframes typing{
+    0%{
+        height: 0%;
+    }
+    50%{
+        height: 100%;
+    }
+    100%{
+        height: 0%;
+    }
+}
+
